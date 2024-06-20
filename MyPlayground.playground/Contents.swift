@@ -99,3 +99,32 @@ print("IMC: ", peso / (altura * altura))
 var precioOriginal: Double = 100000
 var porcentaje: Double = 10
 print(precioOriginal - (precioOriginal * porcentaje) / 100)
+
+//Functions
+
+func showMyName(){
+    print("First Function")
+}
+
+showMyName()
+
+func ShowCustomName(name: String){
+    print("Hello \(name)")
+}
+ShowCustomName(name: "Jeisson")
+
+func calculateAddition(x: Int16, y: Int16){
+    print("\(x) + \(y) = \(x + y)")
+}
+calculateAddition(x: 12, y: 35)
+
+func calculateSubstraction(_ x: Int16, _ y: Int16){
+    print("\(x) - \(y) = \(x - y)")
+}
+calculateSubstraction(54, 16)
+
+func calculateDivide(_ x: Int16, _ y: Int16) -> Int16{
+    return x / y
+}
+
+calculateDivide(100, 10)
