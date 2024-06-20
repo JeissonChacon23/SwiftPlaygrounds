@@ -84,3 +84,18 @@ let isYoungerEquals: Bool = age2 <= 18
 var integerNumber: Int8 = 5
 var doubleNumber: Double = 3.5
 var addIntegerDouble = Double(integerNumber) + doubleNumber
+
+//Exercise 1: Calcula el porcentaje de estudiantes que asisten a una clase donde el total de estudiantes son 20 y asistieron 10
+var asistencia: Double = 10
+var claseTotal: Double = 20
+print((asistencia / claseTotal) * 100 , "%")
+
+//Ejercicio 2: Calcula IMC
+var peso: Double = 62
+var altura: Double = 1.70
+print("IMC: ", peso / (altura * altura))
+
+//Ejercicio 3: Calcular un descuento
+var precioOriginal: Double = 100000
+var porcentaje: Double = 10
+print(precioOriginal - (precioOriginal * porcentaje) / 100)
