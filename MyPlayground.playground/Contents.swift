@@ -79,3 +79,8 @@ let isOlderEquals: Bool = age2 >= 18
 let isYoungerEquals: Bool = age2 <= 18
 
 
+//Conversions
+
+var integerNumber: Int8 = 5
+var doubleNumber: Double = 3.5
+var addIntegerDouble = Double(integerNumber) + doubleNumber
