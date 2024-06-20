@@ -126,5 +126,58 @@ calculateSubstraction(54, 16)
 func calculateDivide(_ x: Int16, _ y: Int16) -> Int16{
     return x / y
 }
-
 calculateDivide(100, 10)
+
+
+//If Else
+let userAge = 28
+
+if userAge < 18{
+    print("Younger")
+}else{
+    print("Older")
+}
+
+func greeting(_ hour: Int8){
+    if hour < 12 {
+        print("Good morning")
+    }else if hour < 18{
+        print("Good afternoom")
+    }else if hour < 21{
+        print("Good evennig")
+    }else{
+        print("Good night")
+    }
+}
+greeting(22)
+
+func getMonth(_ month: Int8){
+    if month == 1{
+        print("Jenuary")
+    }else if month == 2{
+        print("February")
+    }else if month == 3{
+        print("March")
+    }else if month == 4{
+        print("April")
+    }else if month == 5{
+        print("May")
+    }else if month == 6{
+        print("June")
+    }else if month == 7{
+        print("July")
+    }else if month == 8{
+        print("August")
+    }else if month == 9{
+        print("September")
+    }else if month == 10{
+        print("October")
+    }else if month == 11{
+        print("November")
+    }else if month == 12{
+        print("Dicember")
+    }else{
+        print("Invalid number")
+    }
+}
+getMonth(3)
