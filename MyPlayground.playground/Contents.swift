@@ -69,3 +69,13 @@ example %= 15
 
 //Comparative logic operators
 
+let age2: Int8 = 18
+
+let isOlder: Bool = age2 > 18
+let isYounger: Bool = age2 < 18
+let isEquals: Bool = age2 == 18
+let isNotEquals: Bool = age2 != 18
+let isOlderEquals: Bool = age2 >= 18
+let isYoungerEquals: Bool = age2 <= 18
+
+
