@@ -46,3 +46,26 @@ let maxValue: Int
 var imHappy: Bool = true
 var imAngry = false
 
+
+
+
+//Arithmetic operators
+var x: Int8 = 10
+var y: Int8 = 2
+
+var addition = x + y
+var substraction = x - y
+var multiplication = x * y
+var divide = x / y
+var module = y % x
+
+//Assignment operators
+var example: Int8 = 5
+example += 15
+example -= 15
+example *= 15
+example /= 15
+example %= 15
+
+//Comparative logic operators
+
